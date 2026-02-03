@@ -1,0 +1,132 @@
+/* style for the whole page */
+body {
+    background-color: #f0f8ff; /*light blue background*/
+    color: #333;            /*dark
+   text */
+   text-align: center;        /*center everything */
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 100px;
+}
+/* style for the main heading */
+h1 {
+  color: #ff4500;           /*orange heading */
+  font: size 48px;            /*big font size*/
+}
+/*Style for the paragraph */
+p {
+    font-size: 24px;         /*medium text size*/
+}
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+   background-color: #357abd;
+}
+.navbar {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #222;
+}
+.logo{
+  color:white;
+}
+.nav-links {
+  line-height: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #00bfff;
+}
+ .hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg,#007bff,#00bfff);
+  color: white;
+ }
+ .hero h1 {
+   font-size: 16px;
+   margin-bottom: 10px;
+ }
+ .hero p{
+  font-size: 40px;
+  margin-bottom: 25px;
+ }
+ .primary-btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+ }
+ .primary-btn:hover {
+  background-color: #f0f0f0;
+ }
+ .features{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding:60px 40px;
+  background-color: #f9f9f9;
+ }
+ .feature {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 10px
+  rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+ }
+ .feature:hover {
+  transform: translateY(-8px)
+ }
+ section {
+  padding: 80px 40px;
+ }
+ h1,h2,h3 {
+  color: #222;
+ }
+ p {
+  color: #555;
+  line-height: 1.6;
+ }
+ button,
+ a,
+ .feature {
+  transition: all 0.3s ease;
+ }
+ .features{
+  flex-wrap: wrap;
+ }
+ #colorBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+ }
+#actionBtn  {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.active {
+  color: green;
+  font-weight: bold;
+}
